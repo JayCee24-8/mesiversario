@@ -18,7 +18,7 @@ const EnvelopePage = () => {
       {/* Blurred Background */}
       <div
         className="absolute inset-0 bg-cover bg-center blur-md"
-        style={{ backgroundImage: "url('/public/images/Background.jpg')" }}
+        style={{ backgroundImage: "url('/images/Background.jpg')" }}
       ></div>
 
       {/* Content */}

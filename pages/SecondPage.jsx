@@ -6,10 +6,7 @@ const SecondPage = () => {
 
   useEffect(() => {
     // Generate image URLs dynamically
-    const images = Array.from(
-      { length: 16 },
-      (_, i) => `/public/images/${i + 1}.jpg`
-    );
+    const images = Array.from({ length: 16 }, (_, i) => `/images/${i + 1}.jpg`);
     setImageUrls(images);
   }, []);
 
@@ -33,7 +30,7 @@ const SecondPage = () => {
               className="w-36 h-36 object-cover rounded-lg shadow-lg"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.5, delay: index * 0.1 }}
+              transition={{ duration: 2, delay: index * 0.1 }}
             />
           ))}
         </div>
