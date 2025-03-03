@@ -20,7 +20,10 @@ const SecondPage = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center gap-6 p-6">
-        <h1 className="text-4xl font-bold">Happy 16 Months mi amorcito ❤️</h1>
+        <h1 className="text-4xl font-bold">
+          Happy 16 Months mi amorcito ❤️ Cada dia mas agradecido de tenerte en
+          mi vida (Un recuerdito de cada mes)
+        </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {imageUrls.map((src, index) => (
             <motion.img
